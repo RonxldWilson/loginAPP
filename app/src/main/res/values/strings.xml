@@ -3,4 +3,36 @@
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <!-- strings.xml -->
+    <string name="your_favour">
+
+        Your favourite foods delivered fast at your door.
+    </string>
+    <!-- strings.xml -->
+    <string name="welcome_to_">
+
+        Welcome to\nFoodHub
+    </string>
+
+
+    <!-- strings.xml -->
+    <string name="sign_in_wit">
+
+        sign in with
+    </string>
+
+    <!-- strings.xml -->
+    <string name="sign_in">
+
+            Sign In
+        </string>
+
+
+    <!-- strings.xml -->
+    <string name="already_hav">
+
+            Already have an account?
+        </string>
 </resources>

@@ -13,4 +13,80 @@
 <!--        <item name="android:windowFullscreen">true</item>-->
 <!--        <item name="windowActionBar">false</item>-->
 <!--    </style>-->
+
+    <!-- styles.xml -->
+    <style name="your_favour">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #30384F
+        </item>
+
+    </style>
+
+    <!-- styles.xml -->
+    <style name="welcome_to_">
+
+        <item name="android:textSize">
+            53sp
+        </item>
+
+        <item name="android:textColor">
+            #111719
+        </item>
+
+    </style>
+
+    <!--
+  Font family: Sofia Pro
+  Line height: 16sp
+  (identical to box height)
+-->
+    <!-- styles.xml -->
+    <style name="sign_in_wit">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <!--
+          Font family: Sofia Pro
+          Line height: 16sp
+          (identical to box height)
+        -->
+    <!-- styles.xml -->
+    <style name="sign_in">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <!-- styles.xml -->
+    <style name="already_hav">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
 </resources>

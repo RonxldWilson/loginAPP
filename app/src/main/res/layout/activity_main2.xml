@@ -4,15 +4,113 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    android:background="@drawable/back2"
+    >
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="242dp"
-        android:layout_height="125dp"
-        android:text="Button"
+    <!-- Welcome to FoodHub -->
+
+    <!--
+      Font family: Sofia Pro
+      Line height: 69sp
+      translationY 7.56sp compensates for the line height adjustment of text
+    -->
+
+    <!-- Your favourite foods delivered fast at your door. -->
+
+    <!--
+      Font family: Sofia Pro
+      Line height: 27sp
+      translationY 4.5sp compensates for the line height adjustment of text
+    -->
+
+    <!-- sign in with -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="406dp"
+        android:layout_height="632dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838">
+
+        <TextView
+            android:id="@+id/welcome_to_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="top"
+            android:lineSpacingExtra="15sp"
+            android:padding="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:shadowColor="#875C5C"
+            android:text="@string/welcome_to_"
+            android:textAppearance="@style/welcome_to_"
+            android:textColor="#000000"
+            android:translationY="-7.56sp" />
+
+        <TextView
+            android:id="@+id/your_favour"
+            android:layout_width="270dp"
+            android:layout_height="117dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="176dp"
+            android:alpha="0.87"
+            android:gravity="top"
+            android:lineSpacingExtra="9sp"
+            android:padding="20dp"
+            android:paddingLeft="20dp"
+            android:text="@string/your_favour"
+            android:textAppearance="@style/your_favour"
+            android:translationY="-4.5sp" />
+
+        <TextView
+            android:id="@+id/sign_in_wit"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal|top"
+            android:text="@string/sign_in_wit"
+            android:textAlignment="center"
+            android:textAppearance="@style/sign_in_wit" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                app:iconPadding="10dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sign Up" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call the Seller" />
+        <!-- Sign In -->
+
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
