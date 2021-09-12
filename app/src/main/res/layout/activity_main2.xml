@@ -28,15 +28,16 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="406dp"
-        android:layout_height="632dp"
+        android:layout_width="376dp"
+        android:layout_height="674dp"
         android:orientation="vertical"
+        android:padding="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838">
+        app:layout_constraintVertical_bias="0.491">
 
         <TextView
             android:id="@+id/welcome_to_"
@@ -53,6 +54,7 @@
             android:text="@string/welcome_to_"
             android:textAppearance="@style/welcome_to_"
             android:textColor="#000000"
+            android:textSize="34sp"
             android:translationY="-7.56sp" />
 
         <TextView
@@ -89,7 +91,7 @@
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="188dp"
+                android:layout_width="155dp"
                 android:layout_height="wrap_content"
                 android:text="Back"
                 app:iconPadding="10dp" />

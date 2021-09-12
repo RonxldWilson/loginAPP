@@ -17,7 +17,7 @@ public class MainActivity3 extends AppCompatActivity {
     Button submit;
     Button login;
 
-    ContactsContract.CommonDataKinds.Email
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,13 +35,15 @@ public class MainActivity3 extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent z = new Intent(MainActivity3.this, MainActivity5.class);
+                startActivity(z);
+                finish();
             }
         });
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            Intent i = new Intent(MainActivity3.this,MainActivity4.class )
+            Intent i = new Intent(MainActivity3.this,MainActivity4.class );
             startActivity(i);
             finish();
             }
