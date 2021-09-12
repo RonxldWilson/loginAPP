@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOGINapp">
         <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <activity
             android:name=".MainActivity3"
             android:exported="true" />
         <activity

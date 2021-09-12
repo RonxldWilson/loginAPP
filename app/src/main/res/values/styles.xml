@@ -87,6 +87,11 @@
         </item>
 
     </style>
+    <!-- strings.xml -->
+    <string name="full_name">
+
+        Full name
+    </string>
 
 
 </resources>
