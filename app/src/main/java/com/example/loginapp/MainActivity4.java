@@ -34,14 +34,14 @@ public class MainActivity4 extends AppCompatActivity {
         signUpLogin= (Button) findViewById(R.id.signUpLogin);
         FacebookLogin = (Button) findViewById(R.id.button);
         GoogleLogin= (Button) findViewById(R.id.button7);
-
+        String Mail="ronwilson0001@gmail.com";
+        String Pass="123";
         submitLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity4.this, emailFieldLogin.getText().toString(), Toast.LENGTH_SHORT).show();
                 Toast.makeText(MainActivity4.this, passwordFieldLogin.getText().toString(), Toast.LENGTH_SHORT).show();
-                if(emailFieldLogin.getText().toString() == "ronwilson0001@gmail.com"
-                        && passwordFieldLogin.getText().toString()== "12345")
+                if((emailFieldLogin.getText().toString()).equals(Mail) && (passwordFieldLogin.getText().toString()).equals(Pass))
                 {
                     Intent i = new Intent(MainActivity4.this, MainActivity5.class);
                     startActivity(i);

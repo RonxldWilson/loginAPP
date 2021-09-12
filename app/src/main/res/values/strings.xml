@@ -63,5 +63,10 @@
     <string name="username">Username</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
 
+    <!-- strings.xml -->
+    <string name="what_would_">
+            What would you like\nto order
+        </string>
+
 
 </resources>
